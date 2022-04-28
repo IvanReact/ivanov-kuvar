@@ -1,9 +1,13 @@
 import { React, useState } from "react";
+import { useHistory } from "react-router-dom";
 
 import "./style.scss";
 import "../../../node_modules/bulma/bulma.sass";
 
 function CreateRecipeModal(props) {
+
+  let history = useHistory();
+
   const [newRecipe, setNewRecipe] = useState({
     recipeName: "",
     prepTime: 0,
@@ -120,6 +124,7 @@ function CreateRecipeModal(props) {
               className="button is-primary"
               onClick={() => {
                 submitRecipe();
+                history.push("/");
               }}
             >
               KREIRAJ RECEPT

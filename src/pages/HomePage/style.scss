@@ -1,0 +1,11 @@
+.homepage {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+
+  .recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

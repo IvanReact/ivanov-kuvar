@@ -1,0 +1,85 @@
+.vipRecipeCard {
+  width: 75rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+
+  .tile {
+    width: 90%;
+    display: flex;
+    min-height: 30rem;
+    flex-direction: row;
+
+    @media screen and (max-width: 1025px) {
+      min-height: 40rem;
+  
+    }
+
+    @media screen and (max-width: 769px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      min-height: auto;
+      height: auto;
+      padding: 2rem;
+    }
+
+    @media screen and (max-width: 426px) {
+        width: 97vw;
+        margin: 1rem;
+        padding: 1rem;
+
+        .is-ancestor, .is-parent{
+            padding: 0rem;
+            margin: 0rem;
+        }
+    }
+
+    p {
+      color: black;
+    }
+
+    .picAnddata {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+
+      @media screen and (max-width: 769px) {
+        width: 100%;
+      }
+
+      @media screen and (max-width: 426px) {
+        width: 100%;
+        margin-bottom: 0rem;
+
+      }
+    }
+
+    .data {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      padding: 0.3rem;
+      margin-left: 2rem;
+
+      @media screen and (max-width: 769px) {
+        width: 100%;
+        margin-left: 0rem;
+      }
+
+      @media screen and (max-width: 426px) {
+        width: 100%;
+        min-height: 4rem;
+      }
+    }
+  }
+
+  .is-ancestor, .is-parent{
+      @media screen and (max-width:1025px) {
+          padding: 0px;
+      }
+  }
+
+}

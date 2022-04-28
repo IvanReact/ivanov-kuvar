@@ -1,0 +1,21 @@
+.footer {
+  min-height: 4.5rem;
+  padding: 0.1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  background-color: rgba(122, 114, 118, 0.34);
+
+  border-top: 2px solid darkgray;
+
+  .content {
+    p {
+      padding: 0rem;
+      margin: 0rem;
+    }
+  }
+}

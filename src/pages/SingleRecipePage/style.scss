@@ -1,0 +1,45 @@
+.singleRecipePage {
+  width: 60%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  min-height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+
+  flex-grow: 1;
+
+  border-radius: 2%;
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  img {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 2%;
+  }
+
+  .button-grouper {
+    display: flex;
+    justify-content: space-between;
+
+    .worker {
+      width: 45%;
+    }
+  }
+
+  @media screen and (max-width: 1025px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 426px) {
+    width: 90%;
+  }
+}

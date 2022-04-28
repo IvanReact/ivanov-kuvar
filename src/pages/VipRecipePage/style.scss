@@ -1,0 +1,23 @@
+.vip-recipe-page {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+  
+    .vip-recipes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      min-height: 20rem;
+    }
+
+    @media screen and (max-width: 1025px) {
+      display: flex;
+      justify-content: center;        
+  }
+
+    @media screen and (max-width: 426px) {
+        justify-content: center;        
+    }
+
+  }
+  

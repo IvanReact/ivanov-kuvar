@@ -50,7 +50,7 @@ function CreateRecipeModal(props) {
               type="text"
               id="meal"
               name="recipeName"
-              placeholder="meal name"
+              placeholder="naziv recepta"
               onChange={(e) => {
                 setNewRecipe({
                   ...newRecipe,
@@ -108,7 +108,7 @@ function CreateRecipeModal(props) {
               type="text"
               id="preparation"
               name="preparation"
-              placeholder="instrukcije za pripremu recepta"
+              placeholder="instrukcije za pripremu"
               onChange={(e) => {
                 setNewRecipe({
                   ...newRecipe,

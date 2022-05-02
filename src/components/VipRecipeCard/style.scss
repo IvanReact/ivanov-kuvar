@@ -1,8 +1,13 @@
 .vipRecipeCard {
-  width: 75rem;
+  width: 72rem;
   margin-bottom: 1rem;
+
   display: flex;
   justify-content: center;
+
+  @media screen and (max-width: 426px) {
+    width: 21rem;
+  }
 
   .tile {
     width: 90%;

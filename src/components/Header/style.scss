@@ -1,9 +1,8 @@
 .header{
-  width: 100%;
+  width: 100vw;
   display: flex;
-  flex-shrink: 0;
-
 }
+
 
 .navbar {
   width: 100%;
@@ -32,12 +31,12 @@
     }
   }
 
-  .navbar-start{
-    padding-left: 12px;
-  }
-
 
   .navbar-menu {
+
+    .navbar-start{
+      padding-left: 12px;
+    }
 
     .buttons{
       display: flex;

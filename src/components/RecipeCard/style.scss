@@ -7,12 +7,20 @@
     align-items: center;
     justify-content: center;
   }
+
+  @media screen and (max-width: 425px) {
+    width: 23rem;
+  }
 }
 
 .is-parent {
   height: 25rem;
   text-align: center;
   margin: 1rem;
+
+  @media screen and (max-width: 425px) {
+    width: 23rem;
+  }
 
   article {
     padding: 2rem;

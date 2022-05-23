@@ -1,6 +1,5 @@
 import { React, useContext, useState } from "react";
-import { useParams, Redirect } from "react-router-dom";
-import { useHistory } from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 
 import "./style.scss";
 
